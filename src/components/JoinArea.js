@@ -1,4 +1,4 @@
-import { Group130 } from '../assets/illust';
+import { Illust130 } from '../assets/illust';
 import styles from "./JoinArea.module.css";
 
 function JoinArea() {
@@ -11,7 +11,7 @@ function JoinArea() {
                     <div className={styles.date}>2023.02.16</div>
                     <div className={styles.coming}>COMING SOON</div>
                 </div>
-                <Group130 />
+                <Illust130 />
             </div>
                 <button className={styles.join_button}>회원 가입하기</button>
         </div>

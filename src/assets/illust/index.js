@@ -1,11 +1,11 @@
-import { ReactComponent as Group116 } from './Group_116.svg'
-import { ReactComponent as Group117 } from './Group_117.svg'
-import { ReactComponent as Group118 } from './Group_118.svg'
-import { ReactComponent as Group119 } from './Group_119.svg'
-import { ReactComponent as Group122 } from './Group_122.svg'
-import { ReactComponent as Group123 } from './Group_123.svg'
-import { ReactComponent as Group127 } from './Group_127.svg'
-import { ReactComponent as Group130 } from './Group_130.svg'
+import { ReactComponent as Illust116 } from './illust_116.svg'
+import { ReactComponent as Illust117 } from './illust_117.svg'
+import { ReactComponent as Illust118 } from './illust_118.svg'
+import { ReactComponent as Illust119 } from './illust_119.svg'
+import { ReactComponent as Illust122 } from './illust_122.svg'
+import { ReactComponent as Illust123 } from './illust_123.svg'
+import { ReactComponent as Illust127 } from './illust_127.svg'
+import { ReactComponent as Illust130 } from './illust_130.svg'
 import { ReactComponent as Service1 } from './service_1.svg'
 import { ReactComponent as Service2 } from './service_2.svg'
 import { ReactComponent as Service3 } from './service_3.svg'
@@ -20,14 +20,14 @@ import { ReactComponent as Service11 } from './service_11.svg'
 import { ReactComponent as Service12 } from './service_12.svg'
 
 export {
-    Group116,
-    Group117,
-    Group118,
-    Group119,
-    Group122,
-    Group123,
-    Group127,
-    Group130,
+    Illust116,
+    Illust117,
+    Illust118,
+    Illust119,
+    Illust122,
+    Illust123,
+    Illust127,
+    Illust130,
     Service1,
     Service2,
     Service3,

@@ -1,10 +1,10 @@
 import {
-    Group116,
-    Group117,
-    Group118,
-    Group119,
-    Group122,
-    Group123
+    Illust116,
+    Illust117,
+    Illust118,
+    Illust119,
+    Illust122,
+    Illust123
 } from "../assets/illust";
 import { Mobile, Pc } from "../mediaQuery";
 import styles from "./IntroduceArea.module.css";
@@ -32,14 +32,14 @@ function IntroduceArea() {
 
                 <div className={styles.illust_wrap}>
                     <div className={styles.illust_group_1}>
-                        <Group116 />
-                        <Group117 />
-                        <Group118 />
+                        <Illust116 />
+                        <Illust117 />
+                        <Illust118 />
                     </div>
                     <div className={styles.illust_group_2}>
-                        <Group119 />
-                        <Group122 />
-                        <Group123 />
+                        <Illust119 />
+                        <Illust122 />
+                        <Illust123 />
                     </div>
                 </div>
 

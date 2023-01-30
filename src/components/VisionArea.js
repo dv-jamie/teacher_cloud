@@ -1,5 +1,5 @@
 import { Mobile, Pc } from "../mediaQuery";
-import { Group127 } from "../assets/illust";
+import { Illust127 } from "../assets/illust";
 import styles from "./VisionArea.module.css";
 
 function VisionArea() {
@@ -22,7 +22,7 @@ function VisionArea() {
                 </p>
 
                 <div className={styles.illust}>
-                    <Group127 />
+                    <Illust127 />
                 </div>
             </div>
         </div>
