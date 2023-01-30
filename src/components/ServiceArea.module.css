@@ -2,10 +2,6 @@
     min-width: 360px;
     background: var(--gray1);
 }
-.text_wrap {
-    width: 296px;
-    margin: 0 auto;
-}
 .text_wrap > h2 {
     margin-bottom: 16px;
     font-weight: 900;
@@ -41,6 +37,10 @@
 @media (max-width:1024px) {
     .container {
         padding: 60px 32px;
+    }
+    .text_wrap {
+        width: 296px;
+        margin: 0 auto;
     }
     .text_wrap > h2,
     .text_wrap > p {
