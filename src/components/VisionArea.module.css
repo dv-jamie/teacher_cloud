@@ -1,0 +1,29 @@
+.container {
+    height: 417px;
+    padding-top: 50px;
+    background: var(--primary4);
+}
+.content_wrap {
+    width: 532px;
+    margin: 0 auto;
+}
+.content_wrap > span {
+    border-bottom: 1px solid var(--kakao);
+    font-weight: 900;
+    font-size: 28px;
+    color: var(--kakao);
+}
+.content_wrap > p {
+    margin-top: 16px;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--primary1);
+}
+
+.illust {
+    margin-bottom: -10px;
+    text-align: right;
+}
+.illust > svg {
+    transform: translateY(7px);
+}
