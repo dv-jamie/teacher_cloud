@@ -5,6 +5,7 @@
 	--secondary4: #FCC418;
 	--primary1: #EFF7FF;
 	--primary4: #208DF9;
+	--primary5: #347AFE;
 	--red2: #FA4F38;
 	--gray6: #4C5561;
 	--gray7: #333C47;
@@ -65,4 +66,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+::-webkit-scrollbar {
+	display: none;
 }
