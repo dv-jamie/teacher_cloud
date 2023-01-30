@@ -3,9 +3,6 @@
     background: var(--primary1);
     padding: 60px 0;
 }
-.content_wrap {
-
-}
 .content_wrap > h1 {
     margin-bottom: 12px;
     font-weight: 900;
