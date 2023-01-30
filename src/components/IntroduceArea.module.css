@@ -21,7 +21,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 12px;
-    margin-bottom: 40px;
+    width: 532px;
+    margin: 0 auto 40px;
 }
 .illust_group_1,
 .illust_group_2 {
