@@ -8,7 +8,8 @@
     margin: 0 auto;
 }
 .content_wrap > span {
-    border-bottom: 1px solid var(--kakao);
+    padding-bottom: 6px;
+    border-bottom: 4px solid var(--kakao);
     font-weight: 900;
     font-size: 28px;
     color: var(--kakao);
