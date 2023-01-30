@@ -1,0 +1,18 @@
+.footer {
+    height: 92px;
+    padding: 16px;
+    border-top: var(--transparent2);
+    font-size: 12px;
+}
+.footer > ul {
+    margin-bottom: 4px;
+}
+.footer > ul > li {
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    padding: 0 8px;
+    color: var(--gray6);
+    border-right: 1px solid var(--transparent2);
+    vertical-align: baseline;
+}
