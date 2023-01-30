@@ -1,5 +1,5 @@
 .container {
-    height: 417px;
+    min-width: 360px;
     padding-top: 50px;
     background: var(--primary4);
 }
@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 .content_wrap > span {
-    padding-bottom: 6px;
+    padding-bottom: 2px;
     border-bottom: 4px solid var(--kakao);
     font-weight: 900;
     font-size: 28px;
@@ -19,12 +19,30 @@
     margin-right: 8px;
 }
 .content_wrap > p {
-    margin-top: 22px;
+    margin-top: 16px;
     font-size: 14px;
     line-height: 22px;
     color: var(--primary1);
 }
-
 .illust {
     text-align: right;
+    transform: translateY(4px);
+}
+
+/* Mobile */
+@media (max-width:1024px) {
+    .content_wrap {
+        width: 296px;
+        text-align: left;
+    }
+    .content_wrap > span {
+        display: inline-block;
+    }
+    .content_wrap > span:first-of-type {
+        margin-bottom: 8px;
+    }
+    .content_wrap > p {
+        margin-bottom: 80px;
+        text-align: left;
+    }
 }

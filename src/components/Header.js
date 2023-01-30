@@ -4,14 +4,14 @@ import styles from "./Header.module.css";
 
 function Header() {
     return (
-        <div className={styles.container}>
+        <header className={styles.container}>
             <div className={styles.header}>
                 <Logo />
                 <div className={styles.icon_wrap}>
                     <User_1 />
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
 

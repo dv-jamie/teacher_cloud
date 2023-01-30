@@ -2,6 +2,7 @@
     position: fixed;
     top: 0;
     width: 100vw;
+    min-width: 360px;
     border-bottom: 1px solid var(--transparent2);
     z-index: 1000;
 }
