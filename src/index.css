@@ -70,3 +70,7 @@ table {
 ::-webkit-scrollbar {
 	display: none;
 }
+::selection {
+	background: var(--secondary4);
+	color: #fff;
+}
