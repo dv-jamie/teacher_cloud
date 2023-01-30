@@ -3,12 +3,16 @@
     background: var(--secondary4);
 }
 .content_wrap {
+    position: relative;
     width: 296px;
+    height: 251px;
     margin: 0 auto;
     text-align: right;
 }
 .text_wrap {
+    position: absolute;
     width: 137px;
+    z-index: 10;
 }
 .title,
 .date,
@@ -36,6 +40,11 @@
     font-size: 18px;
     line-height: 27px;
     color: var(--red2);
+}
+.content_wrap > svg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 .join_button {
