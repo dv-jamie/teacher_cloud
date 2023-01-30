@@ -1,16 +1,22 @@
-.footer {
+.container {
     height: 92px;
     padding: 16px;
     border-top: var(--transparent2);
     font-size: 12px;
+    text-align: center;
+}
+.footer {
+    display: inline-block;
 }
 .footer > ul {
-    margin-bottom: 4px;
+    display: block;
+    text-align: left;
 }
 .footer > ul > li {
     display: inline-block;
-    height: 10px;
-    line-height: 10px;
+    height: 16px;
+    margin-bottom: 4px;
+    line-height: 16px;
     padding: 0 8px;
     color: var(--gray6);
     border-right: 1px solid var(--transparent2);
